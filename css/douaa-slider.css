@@ -1,0 +1,37 @@
+.douaa-after-prayer{
+    font-family: 'Amiri';
+}
+
+.douaa-after-prayer .title{
+    font-size: 700%;   
+    color: yellowgreen;
+    padding: 15px 0 20px 0;
+}
+
+.douaa-after-prayer .ar{
+    line-height: 180%;
+}
+
+.douaa-after-prayer .fr{
+    font-family: 'Arial';
+}
+
+.douaa-after-prayer #slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.douaa-after-prayer #slider ul {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  list-style: none;
+}
+
+.douaa-after-prayer #slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: auto;
+}

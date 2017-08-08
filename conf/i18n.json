@@ -1,0 +1,317 @@
+{
+    "monday": {
+        "ar": "الإثنين",
+        "fr": "lundi",
+        "en": "monday"
+    },
+    "tuesday": {
+        "ar": "الثلاثاء",
+        "fr": "mardi",
+        "en": "tuesday"
+    },
+    "wednesday": {
+        "ar": "الأربعاء",
+        "fr": "mercredi",
+        "en": "wednesday"
+    },
+    "thursday": {
+        "ar": "الخميس",
+        "fr": "jeudi",
+        "en": "thursday"
+    },
+    "friday": {
+        "ar": "الجمعة",
+        "fr": "vendredi",
+        "en": "friday"
+    },
+    "saturday": {
+        "ar": "السبت",
+        "fr": "samedi",
+        "en": "saturday"
+    },
+    "sunday": {
+        "ar": "الأحد",
+        "fr": "dimanche",
+        "en": "sunday"
+    },
+    "lang": {
+        "ar": "اللغة",
+        "fr": "langue",
+        "en": "language"
+    },
+    "chourouk": {
+        "ar": "الشروق",
+        "fr": "chourouk",
+        "en": "shuruk"
+    },
+    "joumouaa": {
+        "ar": "الجمعة",
+        "fr": "joumouaa",
+        "en": "Jumua"
+    },
+    "aid-prayer": {
+        "ar": "صلاة العيد",
+        "fr": "Prière du aïd",
+        "en": "aid prayer"
+    },
+    "sobh": {
+        "ar": "الصبح",
+        "fr": "sobh",
+        "en": "sobh"
+    },
+    "zuhr": {
+        "ar": "الظهر",
+        "fr": "dohr",
+        "en": "zuhr"
+    },
+    "asr": {
+        "ar": "العصر",
+        "fr": "asr",
+        "en": "asr"
+    },
+    "maghrib": {
+        "ar": "المغرب",
+        "fr": "maghrib",
+        "en": "maghrib"
+    },
+    "isha": {
+        "ar": "العشاء",
+        "fr": "ichaa",
+        "en": "isha"
+    },
+    "support": {
+        "ar": "",
+        "fr": "",
+        "en": ""
+    },
+    "iqama": {
+        "ar": "الإقامة",
+        "fr": "el-iqama",
+        "en": "the iqama"
+    },
+    "configuration": {
+        "ar": "الإعدادات",
+        "fr": "configuration",
+        "en": "configuration"
+    },
+    "help": {
+        "ar": "ضع الماوس على النص لرؤية المزيد من التوضبح",
+        "fr": "survoller les titres des champs avec la souris pour voir plus d'explication",
+        "en": "hover over the headings of the fields with the mouse to see more explanation"
+    },
+    "mandatory": {
+        "ar": "حقل اجباري",
+        "fr": "champ obligatoire",
+        "en": "mandatory field"
+    },
+    "joumoua-time": {
+        "ar": "وقت الجمعة",
+        "fr": "heure du Joumouaa",
+        "en": "jumuaa time"
+    },
+    "min-isha": {
+        "ar": "الحد الأدنى لصلاة العشاء في فصل الشتاء ",
+        "fr": "heure minimum du ichaa en hiver",
+        "en": "minimum isha time in winter"
+    },
+    "aid-time": {
+        "ar": "صلاة العيد",
+        "fr": "heure du Aïd ",
+        "en": "aid time"
+    },
+    "isha-max-no-wait": {
+        "ar": "المدة القصوى لصلاة العشاء الإقامة بدون إنتظار ",
+        "fr": "heure maximale du ichaa (attente iqama = 0 min)",
+        "en": "maximum isha time for no waiting"
+    },
+    "time-waiting": {
+        "ar": "وقت الانتظار بين الأذان والإقامة",
+        "fr": "temps d'attente entre adhan et iqama en minutes",
+        "en": "waiting times between iqama and athan"
+    },
+    "hijri-adjustment": {
+        "ar": "تعديل التاريخ الهجري",
+        "fr": "ajustement de la date hégire",
+        "en": "hijri date adjustment"
+    },
+    "header-text": {
+        "ar": "نص أعلى الصفحة",
+        "fr": " Texte du site internet",
+        "en": "header text"
+    },
+    "site-text": {
+        "ar": "نص موقع الأنترنت",
+        "fr": " Texte du site internet",
+        "en": "internet site text"
+    },
+    "footer-text": {
+        "ar": "نص أسفل الصفحة",
+        "fr": "Texte du pied de page",
+        "en": "footer text"
+    },
+    "enable-douaa-screen": {
+        "ar": "عرض  شاشة الدعاء بعد الأذان",
+        "fr": "Afficher douaa après adhan",
+        "en": "enable douaa after athan"
+    },
+    "enable-douaa-after-prayer": {
+        "ar": "عرض  شاشة الدعاء بعد الصلاة",
+        "fr": "Afficher douaa après la prière",
+        "en": ""
+    },
+    "enable-douaa-screen": {
+        "ar": "وقت عرض  شاشة الدعاء بعد الأذان",
+        "fr": "Afficher douaa après adhan",
+        "en": ""
+    },
+    "iqama-display-time": {
+        "ar": "وقت عرض  شاشة الإقامة",
+        "fr": "Temps du signal de la iqama (sec)",
+        "en": ""
+    },
+    "adhan-douaa-display-time": {
+        "ar": "عرض  شاشة الدعاء بعد الأذان",
+        "fr": "Temps d'affichage du douaa après adhan (sec)",
+        "en": ""
+    },
+    "calcul-choice": {
+        "ar": "اختيار مصدر الحساب",
+        "fr": "Choix de la source de calcul (CSV / Personalisé)",
+        "en": "choose calucl source (CSV / Custom)"
+    },
+    "custom": {
+        "ar": "يدوي",
+        "fr": "Personalisé (réglage manuel)",
+        "en": ""
+    },
+    "defined": {
+        "ar": "CSV ملف",
+        "fr": "Prédifini (fichier CSV)",
+        "en": "Defined (CSV file)"
+    },
+    "city": {
+        "ar": "المدينة",
+        "fr": "Ville",
+        "en": "City"
+    },
+    "calcul-method": {
+        "ar": "طريقة الحساب",
+        "fr": "Méthode de calcul",
+        "en": "Calulation method"
+    },
+    "ISNA": {
+        "ar": "(fajr 15°, ichaa 15°) الإتحاد الإسلامي بأمرينا الشمالية",
+        "fr": "Société Islamique d'Amérique du Nord (fajr 15°, ichaa 15°)",
+        "en": "Islamic Society of North America (ISNA) (fajr 15°, ichaa 15°)"
+    },
+    "UOIF": {
+        "ar": "(fajr 12°, ichaa 12°) إتحاد الجمعيات الإسلامية بفرنسا",
+        "fr": "L'Union des Organisations Islamiques de France (UOIF) (fajr 12°, ichaa 12°)",
+        "en": "Islamic union organisations in France (fajr 12°, ichaa 12°)"
+    },
+    "Karachi": {
+        "ar": "(fajr 18°, ichaa 18°)جامعة العلوم الإسلامية بكراتشي ",
+        "fr": "Université des sciences de Karachi (fajr 18°, ichaa 18°)",
+        "en": "University of Islamic Sciences, Karachi (fajr 18°, ichaa 18°)"
+    },
+    "MWL": {
+        "ar": "(fajr 18°, ichaa 17°) رابطة العالم الإسلامي",
+        "fr": "Ligue islamique mondiale (fajr 18°, ichaa 17°)",
+        "en": "Muslim World League (MWL) (fajr 18°, ichaa 17°"
+    },
+    "Makkah": {
+        "ar": "(fajr 18°, 90 min) جامعة أم القرى",
+        "fr": "Umm al-Qura University - La Mecque (fajr 18°, ichaa 90 min après maghrib)",
+        "en": "Umm al-Qura University, Makkah (fajr 18°, isha 90 min after maghrib)"
+    },
+    "Egypt": {
+        "ar": "(fajr 19.5°, ichaa 17.9°) الهيئة العامة المصرية للمساحة",
+        "fr": "Egyptian General Authority of Survey (fajr 19.5°, ichaa 17.9°)",
+        "en": "Egyptian General Authority of Survey (fajr 19.5°, ichaa 17.9°)"
+    },
+    "latitude": {
+        "ar": "خط العرض",
+        "fr": "latitude",
+        "en": "latitude"
+    },
+    "longitude": {
+        "ar": "خط الطول",
+        "fr": "longitude",
+        "en": "longitude"
+    },
+    "fajrDegree": {
+        "ar": "درجة الفجر",
+        "fr": "Degré du fajr",
+        "en": "fajr degree"
+    },
+    "ichaaDegree": {
+        "ar": "درجة العشاء",
+        "fr": "Degré du ichaa",
+        "en": "isha degree"
+    },
+    "resetConf": {
+        "ar": "إستعادة الإعدادات الأولية",
+        "fr": "Restorer les paramètres par défaut",
+        "en": "Reset conf"
+    },
+    "app-qr-code-display": {
+        "ar": "Qr code عرض تطبيف أنرويد" ,
+        "fr": "Afficher le Qr code de l'appli mobile (Ne pas modifer)",
+        "en": "Display Qr code for android app"
+    },
+    "advanced-param": {
+        "ar": "الإعدادات المتقدمة",
+        "fr": "Paramètres avancés",
+        "en": "advanced settings"
+    },
+    "save": {
+        "ar": "حفظ",
+        "fr": "Enregistrer",
+        "en": "save"
+    },
+    "cancel": {
+        "ar": "إلغاء",
+        "fr": "Annuler",
+        "en": "cancel"
+    },
+    "min": {
+        "ar": "\"",
+        "fr": "min",
+        "en": "min"
+    },
+    "enable-hijri-date": {
+        "ar": "عرض التاريخ الهجري",
+        "fr": "Activer la date hégire",
+        "en": "Enable hijri date"
+    },
+    "times-adjustment": {
+        "ar": "تعديل الأوقات",
+        "fr": "Ajustement des horaires",
+        "en": "Times adjustment"
+    },
+    "adhan": {
+        "ar": "الأذان",
+        "fr": "Al'Adhân",
+        "en": "Azan"
+    },
+    "power-off-phones": {
+        "ar":"! أطفؤوا الهواتف المحمول من فضلكم",
+        "fr": "Éteignez vos portables SVP !",
+        "en": "Turn off your mobile phones please !"
+    },
+    "time-fixing": {
+        "ar": "تثبيت أوقاة الصلاة",
+        "fr": "Fixation des temps de prière",
+        "en": "Prayer times fixing"
+    },
+    "imsak-time": {
+        "ar": "عدد الدقائف قبل الصبح لعرض الأمساك",
+        "fr": "Nombre de minute avant sobh pour l'imsak",
+        "en": "Number of minute before sobh for displaying imsak"
+    },
+    "imsak": {
+        "ar": "الإمساك",
+        "fr": "Imsak",
+        "en": "Imsak"
+    }
+}

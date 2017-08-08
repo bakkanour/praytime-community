@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+        <title>Horaires de prière</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/desktop.css" rel="stylesheet">
+        <link href="css/douaa-slider.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <h1 class="index-title text-center">Praytime</h1>
+    </div>
+
+    <div class="row"> <!-- création d'une ligne -->
+      <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="jumbotron">
+            <h2 class="index-article2">Géolocalisation:</h2>
+            <p class="index-title">Ville: <span class="index-variable" id="city"></span></p>
+            <p class="index-title">Latitude: <span class="index-variable" id="latitude"></span></p>
+            <p class="index-title">Longitude: <span class="index-variable" id="longitude"></span></p>
+        </div>
+      </article>
+      <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="jumbotron">
+          <h2 class="index-article2">Méthode de calcul:</h2>
+          <p class="index-title lead">
+              <div class="radio">
+                <label><input type="radio" name="optradio">CFCM, ISNA (Angle 15°)</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>MLW</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>UOIF</label>
+              </div>
+              <!--div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>Egypt</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>Makkah</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>Karachi</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>Tehran</label>
+              </div>
+              <div class="radio disabled">
+                <label><input type="radio" name="optradio" disabled>Jafari</label>
+              </div-->
+            <br><br>
+            <div class="btn btn-custom">
+              <a href="prayertime.html">Obtenir les horaires</a>
+            </div>
+      </article>
+
+    </div>
+
+      <script src="js/geolocation.js?"+new Date()"; ?>"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2xaKBvi9QXKr6VJYR7_zf-hTOCQPXC3g" async defer></script>
+      <script src="js/vendor/jquery.min.js"></script>
+      <script src="js/vendor/jquery.countdown.min.js"></script>
+      <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/vendor/hijriDate.js"></script>
+      <script src="js/vendor/PrayTimes.js?"+new Date()"></script>
+      <script src="js/tools.js?"+new Date()"></script>
+      <script src="js/date.js?"+new Date()"></script>
+      <script src="js/i18n.js?"+new Date()"></script>
+      <script src="js/prayer.js?"+new Date()"></script>
+
+</body>
+</html>

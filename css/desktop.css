@@ -1,0 +1,263 @@
+@import "fonts.css";
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.spinner{
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Tablette mode paysage */
+@media (max-width:1300px){
+    body {
+        font-size: 9px;
+    }
+}
+
+.jumbotron {
+    background-color:transparent !important; 
+}
+
+.btn-custom {
+    border-color: #f0ad4e;
+    color: #f0ad4e;
+    box-shadow: none;
+}
+
+.index-title {
+    font-size: 500%;
+    color: white;
+}
+
+.index-variable {
+    font-size: 100%;
+    color: #f0ad4e;
+}
+
+.index-article2 {
+    font-size: 250%;
+    color: yellowgreen;
+}
+
+.main, .iqama, .adhan, .douaa-between-adhan-iqama{
+    height:100vh;
+    margin: auto;
+}
+
+.main{
+    width: 98%;    
+}
+
+.top-content{
+    height:50%;
+}
+
+.top-content .adhan-flash{
+    font-size: 1700%;
+    line-height: 160%;
+}
+
+.settings
+{
+    font-size: 30px;
+    margin-top: 10px; 
+    color: #fff;
+}
+
+.prayer-content{
+    height:38%;
+}
+
+.header{
+    font-size: 450%;
+    color: yellowgreen;
+    padding-top: 10px;
+}
+
+.joumouaa, .custom-time{
+    padding-top: 40px;
+    font-size: 500%;
+}
+
+.chourouk-id, .joumouaa-id, .aid-id, .imsak-id{
+    color: yellowgreen;
+    font-size: 160%;
+}
+
+.aid-id {
+    color: red;
+}
+
+.time{
+    font-size: 1250%;
+}
+
+.gregorianDate, .hijriDate{
+    font-size: 450%;
+}
+
+.hijriDate{
+    font-family: 'Amiri';
+}
+
+.prayer-text {
+    font-size: 550%;
+    border-top: 1px #fff solid;
+} 
+
+.prayer-text .text, 
+.prayer-time .prayer, 
+.prayer-wait .wait {
+    width: 20%;
+    float: left;
+}
+
+.prayer-time {
+    height: 150px;
+    line-height: 150px;
+}
+
+.prayer-time .prayer{
+    color: yellowgreen;
+    font-size: 780%;
+}
+
+.prayer-wait .wait{
+    font-size: 500%;
+    border-bottom: 1px #fff solid;
+}
+
+.prayer-hilighted {
+    color: #f0ad4e  !important;
+    -webkit-box-shadow: 0px 0px 31px 4px rgba(255,255,255,0.47);
+    -moz-box-shadow: 0px 0px 31px 4px rgba(255,255,255,0.47);
+    box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.47);
+}
+
+.text-hilighted {
+    color: #f0ad4e  !important;
+}
+
+.flash, .visibilty-hidden{
+    visibility: hidden;
+}
+
+.iqama{
+    background-color: #5e5e5e;
+    font-size: 700%;
+}
+
+.iqama .top{
+    height: 15%;
+    color: #000;
+}
+
+.iqama .bottom{
+    height: 25%;
+    color: #000;
+    padding-top: 50px;
+}
+
+.iqama .image{
+    background-image: url(/img/phone.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    height: 60%;
+}
+
+.adhan .ar {
+    font-size: 700%;
+}
+
+.adhan .fr {
+    margin-top: 50px;
+    font-size: 550%;
+}
+
+.douaa-between-adhan-iqama .ar {
+    font-size: 700%;
+}
+
+.douaa-between-adhan-iqama .fr {
+    margin-top: 50px;
+    font-size: 550%;
+}
+
+.title {
+    color: yellowgreen;
+}
+
+.site{
+    font-size: 200%;
+}
+
+.assosciation{
+    font-size: 200%;
+}
+
+.support{
+    font-size: 180%;
+}
+
+.footer{
+    height: 100px;
+}
+
+.app-qr-code{
+    height: 70px; 
+    width: 70px;
+}
+
+.version-parent{
+    position: relative;
+    height: inherit;
+}
+
+.version{
+    font-size: 20px;
+    color: #adadad;
+    text-align: right;
+    padding-right: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.tooltip-arrow,
+.header + .tooltip > .tooltip-inner {
+    background-color: #f0ad4e;
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+}
+
+.ar{
+    line-height: 180%;
+    font-family: 'Amiri';
+}
+
+.fr{
+    font-family: 'Arial';
+}
+
+.display-none {
+    display: none;
+}
