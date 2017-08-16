@@ -14,10 +14,8 @@ __So praytime-community is a simple one-page site with responsive design and mob
   - Show you salat times with 15°
   - Geolocation using OSM (open street map)
 
-### To do...
-__Want to contribute? Great!__
-- Choosing calculating method
-- Replace the Google API by something open source
+### Things to do...
+- Choosing calculating method (between MWL, ISNA, UOIF, Egypt, Makkah, Karachi, Tehran, Jafari)
 - Make it run in docker for convenience
 
 ### Tech
