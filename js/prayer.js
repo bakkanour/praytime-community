@@ -72,7 +72,7 @@ var prayer = {
                 $(".version").text("v" + data);
             }
         });
-    },    
+    },
     /**
      * load custom data
      * from localStorage if data exists, from json file otherwise
@@ -135,21 +135,26 @@ var prayer = {
             isha: prayer.confData.ishaAdjust
         });
 
-        /*
-        var pt = prayTimes.getTimes(new Date(), [parseFloat(prayer.confData.latitude), parseFloat(prayer.confData.longitude)]);
-        this.times = [pt.fajr, pt.sunrise, pt.dhuhr, pt.asr, pt.maghrib, pt.isha];
-        */
+        // get variable from geolocation.js script
+        var cLat=localStorage.getItem("cLat");
+        var cLng=localStorage.getItem("cLng");
+        var cTown=localStorage.getItem("cTown")
+
+        console.log(cLat);
+        //document.getElementById('cLat').innerHTML = cLat;
         
-        var FinalLat=localStorage.getItem("glat");
-        var FinalLng=localStorage.getItem("glng");
+        console.log(cLng);
+        //document.getElementById('cLng').innerHTML = cLng;
+        
+        console.log(cTown);
+        document.getElementById('cTown').innerHTML = cTown;
 
-        console.log(FinalLat);
-        console.log(FinalLat);
-
-        //document.getElementById('latitude').innerHTML = FinalLng;
-        //document.getElementById('longitude').innerHTML = FinalLng;
-
-        var pt = prayTimes.getTimes(new Date(), [parseFloat(FinalLat), parseFloat(FinalLng)]);
+        if (prayer.confData.latitude == "custom" && prayer.confData.longitude == "custom") {
+            var pt = prayTimes.getTimes(new Date(), [parseFloat(cLat), parseFloat(cLng)]);
+        }
+        else {
+            var pt = prayTimes.getTimes(new Date(), [parseFloat(prayer.confData.latitude), parseFloat(prayer.confData.longitude)]);
+        }
         this.times = [pt.fajr, pt.sunrise, pt.dhuhr, pt.asr, pt.maghrib, pt.isha];
     },
     /**
@@ -634,7 +639,12 @@ var prayer = {
      * set static custom content, header, footer ...
      */
     setCustomContent: function () {
-        $(".header").html(this.confData.headerText);
+        if (prayer.confData.headerText == "custom" ) {
+            $(".header").html(this.cTown);
+        }
+        else {
+            $(".header").html(this.confData.headerText);
+        }
         $(".site").html(this.confData.site);
         $(".assosciation").html(this.confData.footerText);
         $(".supportTel").text(this.confData.supportTel);

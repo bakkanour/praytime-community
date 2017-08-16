@@ -31,31 +31,6 @@ body {
     }
 }
 
-.jumbotron {
-    background-color:transparent !important; 
-}
-
-.btn-custom {
-    border-color: #f0ad4e;
-    color: #f0ad4e;
-    box-shadow: none;
-}
-
-.index-title {
-    font-size: 500%;
-    color: white;
-}
-
-.index-variable {
-    font-size: 100%;
-    color: #f0ad4e;
-}
-
-.index-article2 {
-    font-size: 250%;
-    color: yellowgreen;
-}
-
 .main, .iqama, .adhan, .douaa-between-adhan-iqama{
     height:100vh;
     margin: auto;
@@ -146,9 +121,12 @@ body {
 
 .prayer-hilighted {
     color: #f0ad4e  !important;
-    -webkit-box-shadow: 0px 0px 31px 4px rgba(255,255,255,0.47);
-    -moz-box-shadow: 0px 0px 31px 4px rgba(255,255,255,0.47);
-    box-shadow: 0px 0px 1px 1px rgba(255,255,255,0.47);
+    -webkit-box-shadow: 1px 1px 0px 0px rgba(19,14,10);
+    -moz-box-shadow: px 0px 31px 4px rgba(255,255,255,0.47);
+    -moz-border-radius:10px 10px;
+    -webkit-border-radius:10px 10px;
+    border-radius:15px 15px;
+    box-shadow: 0px 0px 31px 4px rgba(255,255,255,0.20);
 }
 
 .text-hilighted {
@@ -176,7 +154,7 @@ body {
 }
 
 .iqama .image{
-    background-image: url(/img/phone.png);
+    background-image: url(../img/phone.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: contain;

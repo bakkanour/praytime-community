@@ -3,20 +3,16 @@
 [![N|Solid](https://upload.wikimedia.org/wikipedia/commons/a/a9/BISMILLAH.JPG)](https://nodesource.com/products/nsolid)
 
 ### The storie
-> for a long time I was looking for a "geek" thing to display salat time
-> why not a raspberry that litle computer can do most of things
-> lazy as I am, the first thing i do was looking on the internet if somedoby
-> already do that thing. I found some project but none of them fulfilled my
-> expectations untill that i saw this [TV Screen] inside the masjid where
-> I usually going to.
+> I've been looking for a "geek" thing to display salat time and why not a raspberray pi, this litle computer can do most of things.
+> Lazy as I am, the first thing i do was looking on the internet if somedoby already do that thing. I found some project but none of them fulfilled my expectations untill that i saw this [TV Screen] inside the masjid where I usually going to.
 > And that's the begining...
 
 __So praytime-community is a simple one-page site with responsive design and mobile ready.__
 
 ### Features!
-  - Show you salat times with 15°
   - Responsive design
-  - Geolocation using Google API
+  - Show you salat times with 15°
+  - Geolocation using OSM (open street map)
 
 ### To do...
 __Want to contribute? Great!__
@@ -32,11 +28,7 @@ praytime-community uses a number of open source projects to work properly:
 * [jQuery]
 * [praytimes code]
 * [GitHub]
-And of course praytime-community itself is open source with on [GitHub]
-* [praytime-community]
-
-But geolocation is not, untill I find something to replace Google API
-* [Google Maps Geolocation API]
+* [Nominatim] Use Open Street Map API
 
 ### Installation
 [praytime-community] is a simple web site, so you have to get a web server working and running, and place the code as you do with other site.
@@ -59,8 +51,10 @@ None for the moment.
    [Bootstrap]: <http://getbootstrap.com/>
    [jQuery]: <http://jquery.com>
    [JavaScript]: <https://www.w3schools.com/js/>
-   [Google Maps Geolocation API]: <https://developers.google.com/maps/documentation/geolocation/intro>
+   [Open Street Map API]: <https://developers.google.com/maps/documentation/geolocation/intro>
+   [Nominatim]: <http://wiki.openstreetmap.org/wiki/Nominatim>
    [TV Screen]: <http://horaires.mosquee-gennevilliers.com/>
    [GitHub]: <https://github.com>
    [praytime-community]: <https://github.com/bakkanour/praytime-community>
    [praytimes code]: <http://praytimes.org/>
+
