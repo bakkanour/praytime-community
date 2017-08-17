@@ -1,6 +1,6 @@
 # praytime-community
 
-[![N|Solid](https://upload.wikimedia.org/wikipedia/commons/a/a9/BISMILLAH.JPG)](https://nodesource.com/products/nsolid)
+![N|Solid](https://github.com/bakkanour/praytime-community/blob/master/img/bismillah.png)
 
 ### The storie
 > I've been looking for a "geek" thing to display salat time and why not a raspberray pi, this litle computer can do most of things.
@@ -13,6 +13,10 @@ __So praytime-community is a simple one-page site with responsive design and mob
   - Responsive design
   - Show you salat times with 15°
   - Geolocation using OSM (open street map)
+
+### Screenshot
+![N|Solid](https://github.com/bakkanour/praytime-community/blob/master/img/praytime-community.png)
+
 
 ### To do...
 __Want to contribute? Great!__
