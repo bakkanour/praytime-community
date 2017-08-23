@@ -17,10 +17,6 @@ __So praytime-community is a simple one-page site with responsive design and mob
 ### Screenshot
 ![N|Solid](https://github.com/bakkanour/praytime-community/blob/master/img/praytime-community.png)
 
-
-### To do...
-- Choosing calculating method
-
 ### Things to do...
 - Choosing calculating method (between MWL, ISNA, UOIF, Egypt, Makkah, Karachi, Tehran, Jafari)
 - Make it run in docker for convenience
