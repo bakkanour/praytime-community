@@ -1,13 +1,13 @@
-# praytime-community
+# praytime-tv
 
-![N|Solid](https://github.com/bakkanour/praytime-community/blob/master/img/bismillah.png)
+![N|Solid](https://github.com/bakkanour/praytime-tv/blob/master/img/bismillah.png)
 
 ### The storie
 > I've been looking for a "geek" thing to display salat time and why not a raspberray pi, this litle computer can do most of things.
 > Lazy as I am, the first thing i do was looking on the internet if somedoby already do that thing. I found some project but none of them fulfilled my expectations untill that i saw this [TV Screen] inside the masjid where I usually going to.
 > And that's the begining...
 
-__So praytime-community is a simple one-page site with responsive design and mobile ready.__
+__So praytime-tv is a simple one-page site with responsive design and mobile ready.__
 
 ### Features!
   - Responsive design
@@ -15,14 +15,14 @@ __So praytime-community is a simple one-page site with responsive design and mob
   - Geolocation using OSM (open street map)
 
 ### Screenshot
-![N|Solid](https://github.com/bakkanour/praytime-community/blob/master/img/praytime-community.png)
+![N|Solid](https://github.com/bakkanour/praytime-tv/blob/master/img/praytime-tv.png)
 
 ### Things to do...
 - Choosing calculating method (between MWL, ISNA, UOIF, Egypt, Makkah, Karachi, Tehran, Jafari)
 - Make it run in docker for convenience
 
 ### Tech
-praytime-community uses a number of open source projects to work properly:
+praytime-tv uses a number of open source projects to work properly:
 
 * [Bootstrap]
 * [JavaScript]
@@ -32,11 +32,11 @@ praytime-community uses a number of open source projects to work properly:
 * [Nominatim] Use Open Street Map API
 
 ### Installation
-[praytime-community] is a simple web site, so you have to get a web server working and running, and place the code as you do with other site.
-Or you can use python as web server and run [praytime-community] this way:
+[praytime-tv] is a simple web site, so you have to get a web server working and running, and place the code as you do with other site.
+Or you can use python as web server and run [praytime-tv] this way:
 ```sh
-git clone https://github.com/bakkanour/praytime-community.git
-cd praytime-community
+git clone https://github.com/bakkanour/praytime-tv.git
+cd praytime-tv
 python -m SimpleHTTPServer
 ```
 
@@ -56,6 +56,6 @@ None for the moment.
    [Nominatim]: <http://wiki.openstreetmap.org/wiki/Nominatim>
    [TV Screen]: <http://horaires.mosquee-gennevilliers.com/>
    [GitHub]: <https://github.com>
-   [praytime-community]: <https://github.com/bakkanour/praytime-community>
+   [praytime-tv]: <https://github.com/bakkanour/praytime-tv>
    [praytimes code]: <http://praytimes.org/>
 
